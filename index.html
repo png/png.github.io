@@ -1,22 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./custom.css">
+        <title>Home | Jason Ashley</title>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#top">Jason Ashley</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#current">Current Projects</a>
+                        <a class="nav-item nav-link" href="#previous">Previous Projects</a>
+                        <a class="nav-item nav-link" href="#work">Work Experience</a>
+                        <a class="nav-item nav-link" href="#education">Education</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h2 id="current">Current Projects</h2>
+            <div class="card mb-2">
+                <h5 class="card-header">UVA Scheduler</h5>
+                <div class="card-body">
+                    <h6 class="card-title">UVA DevHub Affiliated Project</h6>
+                    <p class="card-text">Tool designed for helping students navigate the complex scheduling environment.
+                    Pulls from multiple data sources to present users with calendars and charts representing course data.
+                    Utilizes Python, Node.js and several libraries, and MongoDB.
+                    </p>
+                    <a href="https://uva-scheduler.herokuapp.com" class="btn btn-primary" target="_blank">Visit the project site</a>
+                    <a href="https://github.com/UVAMobileDev/Scheduler" class="btn btn-primary" target="_blank">Visit the GitHub</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <h2 id="previous">Previous Projects</h2>
+            <div class="card mb-2">
+                <h5 class="card-header">ImageDirWalk</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Project developed for UVA Batten</h6>
+                    <p class="card-text">Software designed as part of project to migrate images from local machines to cloud storage.
+                    Tags images based on Google’s Cloud Vision API and performs certain formatting during upload.
+                    Utilizes Bash, Python, and Google Cloud Platform. Part of a wider goal working with Django.
+                    </p>
+                    <a href="https://github.com/jasona99/CloudinaryDirWalk" class="btn btn-primary">Visit the GitHub</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <h2 id="work">Work Experience</h2>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <h2 id="education">Education</h2>
+            <div class="card mb-2">
+                <h5 class="card-header">University of Virginia</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Bachelor of Science in Computer Science/Computer Engineering</h6>
+                    <p class="card-text">Relevant Coursework</p>
+                    <p class="card-text">Expected graduation in May 2021</p>
+                    <p class="card-text">Major GPAs of 3.825 and 3.832, respectively</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
