@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
         <link rel="stylesheet" href="./custom.css">
         <title>Home | Jason Ashley</title>
     </head>
@@ -42,7 +43,7 @@
         <div class="jumbotron jumbotron-fluid text-white bg-secondary topper" id="top">
             <div class="container">
                 <div class="row">
-                    <div class="container col-md-2" style="max-width:200px;">
+                    <div class="container col-md-2" style="max-width:180px;">
                         <div>
                             <img class="rounded-circle img-fluid align-middle" style="max-width:100%;" src="./images/casual.jpg"></img>
                         </div>
@@ -59,18 +60,28 @@
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <p>Email: <a href="mailto:jasonashley@virginia.edu">jasonashley@virginia.edu</a></p>
-                <a class="link" href="https://github.com/png" target="_blank"><img class="social" src="./images/GitHub-Mark-32px.png"></img></a>
-                <a class="link" href="https://keybase.io/SubjectName" target="_blank"><img class="social" src="./images/32px-Keybase_logo.png"></img></a>
-                <a class="link" href="https://www.linkedin.com/in/jason-a-015352a8/" target="_blank"><img class="social" src="./images/LI-In-Bug.png"></img></a>
-                <a class="link" href="https://twitter.com/TestSubjectName" target="_blank"><img class="social" src="./images/Twitter_Logo_Blue.png"></img></a>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-inline spec"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i><a class="vertical" href="mailto:jasonashley@virginia.edu">jasonashley@virginia.edu</a></div>
+                        <div class="form-inline spec"><i class="fa fa-2x fa-phone" aria-hidden="true"></i><p class="vertical">(434) 882-5434</p></div>
+                    </div>
+                    <div class="col">
+                        <div class="form-inline spec"><i class="fab fa-2x fa-keybase" aria-hidden="true"></i><a class="vertical" href="https://keybase.io/SubjectName">SubjectName</a></div>
+                        <div class="form-inline spec"><i class="fab fa-2x fa-linkedin" aria-hidden="true"></i><a class="vertical" href="https://www.linkedin.com/in/jason-a-015352a8/">Jason Ashley</a></div>
+                    </div>
+                    <div class="col">
+                        <div class="form-inline spec"><i class="fab fa-2x fa-twitter" aria-hidden="true"></i><a class="vertical" href="https://twitter.com/TestSubjectName">TestSubjectName</a></div>
+                        <div class="form-inline spec"><i class="fab fa-2x fa-github" aria-hidden="true"></i><a class="vertical" href="https://github.com/png">png</a></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
 
             <h2 id="about" class="anchor">About Me</h2>
             <p class="lead">I am a Computer Science and Computer Engineering student looking to learn about everything in the field!
-                However, I am particularly interested in cybersecurity and embedded systems, including the interplay between the two.</p>
+                I am particularly interested in cybersecurity and embedded systems, including the interplay between the two.
+            </p>
 
 
             <hr>
@@ -94,7 +105,7 @@
                 <div class="card-body">
                     <h6 class="card-title">Team-based project for course</h6>
                     <p class="card-text">A soon-to-be launched project from UVA's CS 3240. Utilizes Python, specifically Django,
-                    and related tools.
+                    and related tools. Currently private due to course requirements.
                     </p>
                     <a href="#" class="btn btn-primary disabled">View on GitHub</a>
                 </div>
@@ -103,10 +114,10 @@
                 <h5 class="card-header">CS 4720: Mobile Application Development Final Project</h5>
                 <div class="card-body">
                     <h6 class="card-title">Project for course</h6>
-                    <p class="card-text">A soon-to-be launched project from UVA's CS 4720. Will utilize scheduling API from
-                    UVA Scheduler, expanded in usability with React and React Native.
+                    <p class="card-text">Improved access to UVA course information using API built at <a href="#work">DevHub</a>.
+                        Utilizes React and React Native, Expo, and MongoDB.
                     </p>
-                    <a href="#" class="btn btn-primary disabled">View on GitHub</a>
+                    <a href="https://github.com/tic/UVAScheduler-react" class="btn btn-primary">View on GitHub</a>
                 </div>
             </div>
             <div class="card mb-2">
@@ -258,7 +269,7 @@
                 <div class="card-body">
                     <h6 class="card-title">Bachelor of Science in Computer Science and Computer Engineering</h6>
                     <!-- Table here. -->
-                    <table class="table table-striped table-responsive text-center mb-0">
+                    <table class="table table-striped text-center table-responsive">
                         <tbody>
                             <caption>Sample of Course Work</caption>
                             <tr>
@@ -319,7 +330,7 @@
                     </div>
                     <p class="card-text">Highest scoring team from UVA out of eligible teams.
                     </p>
-                    <a href="https://www2.virginia.edu/registrar/acadrecord.html#honors" class="btn btn-primary" target="_blank">Learn more</a>
+                    <a href="https://metactf.com/" class="btn btn-primary" target="_blank">Learn more</a>
                 </div>
             </div>
             <div class="card mb-2">
@@ -336,7 +347,7 @@
                     <p class="card-text">Previously certified for network administration/engineering tasks. Preparation for certification also focused
                         on network and system security.
                     </p>
-                    <a href="https://www2.virginia.edu/registrar/acadrecord.html#honors" class="btn btn-primary" target="_blank">Learn more</a>
+                    <a href="https://certification.comptia.org/certifications/network" class="btn btn-primary" target="_blank">Learn more</a>
                 </div>
             </div>
 

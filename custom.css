@@ -28,9 +28,20 @@ html {
     align-items: center;
 }
 .better{
-    background-color: "#000000";
+    background-color: #000000;
     background-image: url("./images/bg_stars.gif");
 }
 .anchor {
     padding-top: 10px;
+}
+.form-inline.spec {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-inline.spec .vertical {
+    margin-left: 25px;
+}
+.fa-2x{
+    color: #6c757d;
 }
