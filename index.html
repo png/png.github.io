@@ -65,12 +65,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="form-inline spec"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i><a class="vertical" href="mailto:jasonashley@virginia.edu">jasonashley@virginia.edu</a></div>
+                        <div class="form-inline spec"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i><a class="vertical" href="mailto:jason@jash.io">jason@jash.io</a></div>
                         <div class="form-inline spec"><i class="fa fa-2x fa-phone" aria-hidden="true"></i><p class="vertical">(434) 882-5434</p></div>
                     </div>
                     <div class="col">
                         <div class="form-inline spec"><i class="fab fa-2x fa-keybase" aria-hidden="true"></i><a class="vertical" href="https://keybase.io/SubjectName">SubjectName</a></div>
-                        <div class="form-inline spec"><i class="fab fa-2x fa-linkedin" aria-hidden="true"></i><a class="vertical" href="https://www.linkedin.com/in/jason-a-015352a8/">Jason Ashley</a></div>
+                        <div class="form-inline spec"><i class="fab fa-2x fa-linkedin" aria-hidden="true"></i><a class="vertical" href="https://www.linkedin.com/in/subject-name-here/">Jason Ashley</a></div>
                     </div>
                     <div class="col">
                         <div class="form-inline spec"><i class="fab fa-2x fa-twitter" aria-hidden="true"></i><a class="vertical" href="https://twitter.com/TestSubjectName">TestSubjectName</a></div>
@@ -82,15 +82,57 @@
         <div class="container">
 
             <h2 id="about" class="anchor">About Me</h2>
-            <p class="lead">I am a Computer Science and Computer Engineering student looking to learn about everything in the field!
-                I am particularly interested in cybersecurity and embedded systems, including the interplay between the two.
+            <p class="lead">I am an Embedded Software Engineer at Amazon Scout constantly looking to learn new things in embedded
+                and cybersecurity. Between work and personal projects, I have explored many different hardware devices, protocols,
+                and standards. I graduated with a degree in Computer Science and Computer Engineering from the University of Virginia.
             </p>
 
 
             <hr>
 
 
-            <h2 id="current" class="anchor">Current Projects</h2>
+            <h2 id="current" class="anchor">Recent Projects</h2>
+            <div class="card mb-2">
+                <h5 class="card-header">Internet-Based Telegraph</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Computer Engineering Embedded System Design Capstone</h6>
+                    <p class="card-text">Published capstone project with focus on IoT, robotics, and signal amplification with noise reduction.
+                        Moves plant based on action potentials, reports soil moisture and plant growth to server to view in application.
+                        Worked on camera driver, sensor capture, ESP32 network connection, API, database, and mobile application.
+                        Utilizes frameworks based on FreeRTOS, Node.js with Express running on AWS EC2, MongoDB, React Native.
+                    </p>
+                    <a href="https://doi.org/10.18130/cjzg-8w16" class="btn btn-primary" target="_blank">View Paper</a>
+                    <a href="https://youtu.be/P7lLsE0sVAE" class="btn btn-primary" target="_blank">View a Demo</a>
+                    <a href="https://github.com/OurFourthRodeo" class="btn btn-primary" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Internet-Based Telegraph</h5>
+                <div class="card-body">
+                    <h6 class="card-title">Personal Project</h6>
+                    <p class="card-text">An in-progress project to send Morse code messages over the internet from a board with a key-like mechanism.
+                        .Includes an ESP32, LCD screen, audio amplification circuit, lighting, and RTC to perform intended functions.
+                        Software stack utilizes Node.js with Express and Arduino.
+                    </p>
+                    <a href="https://oshwlab.com/jasona99/telegraph" class="btn btn-primary" target="_blank">View on OSHWLab</a>
+                    <a href="#" class="btn btn-primary disabled" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">FPGA Wavetable Synthesizer</h5>
+                <div class="card-body">
+                    <h6 class="card-title">FPGA Seminar Final Project</h6>
+                    <p class="card-text">FPGA course project that takes an input from a MIDI keyboard then synthesizes a sample for that note on FPGA.
+                        Worked on reading MIDI bytes from keyboard, wavetable creation/reading, and preparing/sending audio to codec.
+                        Utilizes an Altera DE2--115 FPGA board, a Raspberry Pi as USB and MIDI intermediary, Python, and VHDL.
+                    </p>
+                    <a href="https://youtu.be/hytf5pJETy8" class="btn btn-primary" target="_blank">View a Demo</a>
+                    <a href="https://github.com/willzhang05/fpga-synthesizer" class="btn btn-primary" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            
+
+            <h2 id="previous" class="anchor">Previous Projects</h2>
             <div class="card mb-2">
                 <h5 class="card-header">UVA Scheduler</h5>
                 <div class="card-body">
@@ -124,23 +166,11 @@
                 </div>
             </div>
             <div class="card mb-2">
-                <h5 class="card-header">BrightSign Digital Signage Revamp</h5>
-                <div class="card-body">
-                    <h6 class="card-title">Project in development for UVA Batten</h6>
-                    <p class="card-text"> A project aimed at providing both useful and timely information for Batten students
-                    as they enter Garrett Hall. Utilizes JavaScript/jQuery and basic HTML with CSS as well as the BrightAuthor software suite.
-                    </p>
-                    <a href="#" class="btn btn-primary disabled">View on GitHub</a>
-                </div>
-            </div>
-
-            <h2 id="previous" class="anchor">Previous Projects</h2>
-            <div class="card mb-2">
                 <h5 class="card-header">ImageDirWalk</h5>
                 <div class="card-body">
                     <h6 class="card-title">Project developed for UVA Batten</h6>
                     <p class="card-text">Software designed as part of project to migrate images from local machines to cloud storage.
-                    Tags images based on Google’s Cloud Vision API and performs certain formatting during upload.
+                    Tags images based on Google's Cloud Vision API and performs certain formatting during upload.
                     Utilizes Bash, Python, and Google Cloud Platform. Part of a wider goal working with Django.
                     </p>
                     <a href="https://github.com/png/CloudinaryDirWalk" class="btn btn-primary" target="_blank">View on GitHub</a>
@@ -197,6 +227,62 @@
 
             <h2 id="work" class="anchor">Work Experience</h2>
             <div class="card mb-2">
+                <h5 class="card-header">Amazon</h5>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h6 class="card-title">Scout Robotics Embedded Engineer</h6>
+                        </div>
+                        <div>
+                            <h6 class="card-title"><em>August 2021 - Present</em></h6>
+                        </div>
+                    </div>
+                    <p class="card-text">Integrate new feature requests and debug issues in firmware for lighting boards and "main" microcontroller in C, both in uC/OS-II RTOS and bare-metal codebases.
+                        Enhance ROS-based camera, radar, and MCU management drivers written in C++ for safe, reliable autonomous vehicle operation, significantly reducing MCU manager downtime and eliminating unchecked firmware version risks.
+                        Collaborate with external vendors and nearby teams to solve problems and improve products.
+                        Deep dive and resolve issues captured by metrics in AWS CloudWatch, AWS Athena, and system logs in AWS S3.
+                        Develop and maintain software architecture documentation and prepare long-term plans focusing on safety, security, and reliability.
+                    </p>
+                    <small class="d-flex flex-row-reverse">Seattle, WA</small>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">Lancium Compute</h5>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h6 class="card-title">Software Engineer</h6>
+                        </div>
+                        <div>
+                            <h6 class="card-title"><em>September 2019 - August 2021</em></h6>
+                        </div>
+                    </div>
+                    <p class="card-text">Architected and implemented solutions for CPU and GPU process checkpointing and migration by managing devices and control groups using solutions built in C++ and Java.
+                        Designed, developed, and owned tools for containerization and remote management of compute jobs in Go and C, such as extensions to existing containerization tools to support requests to checkpoint.
+                        Communicated and coordinated operations with engineering teams around the world to release new products.
+                    </p>
+                    <small class="d-flex flex-row-reverse">Charlottesville, VA</small>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <h5 class="card-header">University of Virginia School of Engineering</h5>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h6 class="card-title">CS 4102: Algorithms Lead Teacher's Assistant & CS 4414: Operating Systems Teaching Assistant</h6>
+                        </div>
+                        <div>
+                            <h6 class="card-title"><em>Summer 2019 & Spring 2020 - May 2021</em></h6>
+                        </div>
+                    </div>
+                    <p class="card-text">Led students through problems towards success with individual instruction.
+                        Prepared and organize assignments and assignment schedules.
+                        Assessed student performance and communicate results to faculty.
+                    </p>
+                    <small class="d-flex flex-row-reverse">Charlottesville, VA</small>
+                </div>
+            </div>
+            <div class="card mb-2">
                 <h5 class="card-header">Frank Batten School of Leadership and Public Policy</h5>
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -204,7 +290,7 @@
                             <h6 class="card-title">IT Support and Student Developer</h6>
                         </div>
                         <div>
-                            <h6 class="card-title"><em>September 2017 - Present</em></h6>
+                            <h6 class="card-title"><em>September 2017 - March 2020</em></h6>
                         </div>
                     </div>
                     <p class="card-text">Work with students and faculty to resolve problems through in-person support. Communicate with guest presenters to prepare
@@ -227,23 +313,6 @@
                     <p class="card-text">Oversee and mentor groups of student interns through development of their first web apps.
                          Help develop tools and projects for both students and faculty in a consulting role.
                          Maintain and improve previously developed tools.
-                    </p>
-                    <small class="d-flex flex-row-reverse">Charlottesville, VA</small>
-                </div>
-            </div>
-            <div class="card mb-2">
-                <h5 class="card-header">University of Virginia School of Engineering</h5>
-                <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                        <div>
-                            <h6 class="card-title">CS 4102: Algorithms Lead Teacher’s Assistant</h6>
-                        </div>
-                        <div>
-                            <h6 class="card-title"><em>Summer 2019</em></h6>
-                        </div>
-                    </div>
-                    <p class="card-text">Led students through problems towards success with individual instruction. Prepared and organized assignments and
-                    assignment schedules.
                     </p>
                     <small class="d-flex flex-row-reverse">Charlottesville, VA</small>
                 </div>
