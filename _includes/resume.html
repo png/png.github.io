@@ -1,0 +1,70 @@
+<section id="education">
+    {% for element in site.data.education %}
+    {{ element.school }}
+    <br>
+    {{ element.degree }}
+    <br>
+    {{ element.gpa }}
+    <br>
+    {{ element.graduation }}
+    <br>
+    {% for course in element.relevantCoursework %}
+        {{ course.name }}
+        <br>
+    {% endfor %}
+    {% endfor %}
+</section>
+
+<section id="work">
+    {% for element in site.data.work %}
+    {{ element.company }}
+    <br>
+    {{ element.location }}
+    <br>
+    {{ element.dates }}
+    <br>
+    {{ element.role }}
+    <br>
+    {% for item in element.description %}
+        {{ item }}
+        <br>
+    {% endfor %}
+    {% endfor %}
+</section>
+
+<section id="projects">
+    {% for element in site.data.projects %}
+    {{ element.name }}
+    <br>
+    {% if element.paper != nil %}Paper<br>{% endif %}
+    {% if element.repo != nil %}Source<br>{% endif %}
+    {% if element.oshw != nil %}Hardware Design<br>{% endif %}
+    {% if element.video != nil %}Demo Video<br>{% endif %}
+    {% if element.photo != nil %}Photo<br>{% endif %}
+    {% for item in element.description %}
+        {{ item }}
+        <br>
+    {% endfor %}
+    {% endfor %}
+    <i class="fas fa-user"></i> <!-- uses solid style -->
+    <i class="far fa-user"></i> <!-- uses regular style -->
+    <i class="fab fa-github-square"></i> <!-- uses brands style -->
+</section>
+
+<section id="skills">
+    Programming languages:<br>
+    {% assign skills = site.data.skills %}
+    Proficient in {% for element in skills.programming.proficient %} {{ element }},&nbsp; {% endfor %}
+    <br>
+    Familiar with {% for element in skills.programming.familiar %} {{ element }},&nbsp; {% endfor %}
+    <br>
+    Experience debugging with tools such as {% for element in skills.debugging.experience %} {{ element }},&nbsp; {% endfor %}
+    <br>
+    Experience working with {% for element in skills.technologies.experience %} {{ element }},&nbsp; {% endfor %}
+    <br>
+    Experience developing drivers for and using {% for element in skills.communicationProtocols.experienceDevelopingAndUsing %} {{ element }},&nbsp; {% endfor %};
+    experience using {% for element in skills.communicationProtocols.experienceUsing %} {{ element }},&nbsp; {% endfor %}
+    <br>
+    Trained on {% for element in skills.standards.trainedOn %} {{ element }},&nbsp; {% endfor %},
+    experience working with {% for element in skills.standards.familiarWith %} {{ element }},&nbsp; {% endfor %}
+</section>

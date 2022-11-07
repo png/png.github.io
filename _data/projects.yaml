@@ -1,0 +1,35 @@
+---
+- name: "Robotany: Smart Robotic Plant Pot"
+  paper: https://doi.org/10.18130/cjzg-8w16
+  repo: https://github.com/OurFourthRodeo
+  video: https://youtu.be/P7lLsE0sVAE
+  photo: images/robotany.jpg
+  description:
+    - Published capstone project with focus on IoT, robotics, and signal amplification with noise reduction
+    - Moves plant based on action potentials, reports soil moisture and plant growth to server to view in application
+    - Worked on camera driver, sensor capture, ESP32 network connection, API, database, and mobile application
+    - Utilizes frameworks based on FreeRTOS, Node.js with Express running on AWS EC2, MongoDB, React Native
+
+- name: "Internet-Based Telegraph"
+  oshw: https://oshwlab.com/jasona99/telegraph
+  photo: images/telegraph.jpg
+  description:
+    - An in-progress project to send Morse code messages over the internet from a board with a key-like mechanism
+    - Includes an ESP32, LCD screen, audio amplification circuit, lighting, and RTC to perform intended functions
+    - Software stack utilizes Node.js with Express and Arduino
+
+- name: "FPGA Wavetable Synthesizer"
+  repo: https://github.com/willzhang05/fpga-synthesizer
+  video: https://youtu.be/hytf5pJETy8
+  photo: images/synth.jpg
+  description:
+    - FPGA course project that takes an input from a MIDI keyboard then synthesizes a sample for that note on FPGA
+    - Worked on reading MIDI bytes from keyboard, wavetable creation/reading, and preparing/sending audio to codec
+    - Utilizes an Altera DE2--115 FPGA board, a Raspberry Pi as USB and MIDI intermediary, Python, and VHDL
+
+- name: "MovieSwipe"
+  repo: https://github.com/database-breakers
+  description:
+    - Databases final project with focus on consistency, security, and functionality
+    - Users join any number of groups, create polls to determine movies to watch, and vote through a swiping interface
+    - Utilizes MySQL on Google Cloud Platform, React Native, Node.js with Express, and some Python for data parsing

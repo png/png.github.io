@@ -1,0 +1,47 @@
+---
+- company: Amazon
+  location: Seattle, WA
+  dates: August 2021 - Present
+  role: Scout Robotics Embedded Engineer
+  description:
+    - Integrate new feature requests and debug issues in firmware for lighting boards and 
+      "main" microcontroller in C, both in uC/OS-II RTOS and bare-metal codebases
+    - Enhance ROS-based camera, radar, and MCU management drivers written in C++ for safe,
+      reliable autonomous vehicle operation, significantly reducing MCU manager downtime and 
+      eliminating unchecked firmware version risks
+    - Collaborate with external vendors and nearby teams to solve problems and improve products
+    - Deep dive and resolve issues captured by metrics in AWS CloudWatch, AWS Athena, and system
+      logs in AWS S3
+    - Develop and maintain software architecture documentation and prepare long-term plans
+      focusing on safety, security, and reliability
+
+- company: Lancium Compute
+  location: Charlottesville, VA
+  dates: September 2019 - August 2021
+  role: Software Developer
+  description:
+    - Architected and implemented solutions for CPU and GPU process checkpointing and 
+      migration by managing devices and control groups using solutions built in C++ and Java
+    - Designed, developed, and owned tools for containerization and remote management of compute
+      jobs in Go and C, such as extensions to existing containerization tools to support requests
+      to checkpoint
+    - Communicated and coordinated operations with engineering teams around the world to release
+      new products
+
+- company: University of Virginia School of Engineering
+  location: Charlottesville, VA
+  dates: July 2019 & Spring 2020 - May 2021
+  role: "CS 4102: Algorithms & CS4414: Operating Systems Teaching Assistant"
+  description:
+    - Led students through problems towards success with individual instruction
+    - Prepared and organize assignments and assignment schedules
+    - Assessed student performance and communicate results to faculty
+
+- company: Frank Batten School of Leadership and Public Policy
+  location: Charlottesville, VA
+  dates: September 2017 - March 2020
+  role: IT Support and Student Developer
+  description:
+    - Work with students and faculty to resolve problems through in-person support
+    - Communicate with guest presenters to prepare and monitor presentations
+    - Develop and integrate software solutions to problems presented by faculty

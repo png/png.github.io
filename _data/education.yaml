@@ -1,0 +1,14 @@
+---
+- school: University of Virginia
+  degree: Bachelor of Science, Double Major in Computer Science and Computer Engineering
+  gpa: Combined Majors GPA 3.912/4.000
+  graduation: May 2021
+  relevantCoursework:
+    - name: Algorithms
+      description: A course discussing various algorithms and their proofs.
+    - name: Embedded System Design
+      description: Capstone course with a focus in designing a product utilizing Embedded concepts.
+    - name: Defense Against the Dark Arts
+      description: Upper-level cybersecurity course focused on malware, exploits, and mitigations.
+    - name: Computer Architecture (Computer Engineering)
+      description: Rigorous lecture and lab course with the final deliverable being a 5-stage RISC-V processor.

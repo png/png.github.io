@@ -1,0 +1,55 @@
+---
+programming:
+  proficient:
+    - C
+    - C++
+    - Python
+    - MySQL
+    - VHDL
+    - JavaScript
+  familiar:
+    - Java
+    - Go
+    - MATLAB
+    - R
+    - Verilog
+    - TypeScript
+operatingSystems:
+  linux:
+    distros:
+      - Arch
+      - Debian-based, including Ubuntu
+    description: Extensive knowledge using and configuring for general and development tasks.
+  macOS:
+    description: Knowledge on using and configuring for development tasks and some general tasks.
+  windows:
+    description: Decent knowledge on using and configuring for general tasks.
+debugging:
+  experience:
+    - logic analyzers (NI VirtualBench, Analog Discovery 2, Saleae)
+    - oscilloscopes (NI VirtualBench, Analog Discovery 2)
+    - GDB
+    - JTAG
+    - SWD
+technologies:
+  experience:
+    - Git
+    - FreeRTOS (especially in context of ESP-IDF)
+    - uC/OS-II RTOS and select libraries
+    - Docker
+    - Amazon Web Services, including S3, EC2, Athena, Quicksight, and CloudWatch
+    - Google Cloud Platform, especially Cloud SQL, Cloud Vision, and some Firebase tools
+communicationProtocols:
+  experienceDevelopingAndUsing:
+    - SPI
+    - UART
+    - I2C
+  experienceUsing:
+    - CAN
+    - Ethernet
+standards:
+  trainedOn:
+    - ISO 21448
+  familiarWith:
+    - MISRA C
+    - ISO 26262
